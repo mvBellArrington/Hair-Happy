@@ -7,7 +7,7 @@ namespace Hair_Happy_App.Models
     class Booking
     {
         public long Id { get; set; }
-        public Boolean IsGuest { get; set; }
+        public bool IsGuest { get; set; }
         public string FName { get; set; }
         public string LName { get; set; }
         public string HairType { get; set; }
